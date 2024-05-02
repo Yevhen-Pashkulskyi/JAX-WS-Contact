@@ -6,7 +6,7 @@ import jakarta.jws.soap.SOAPBinding;
 
 @WebService
 @SOAPBinding(style = SOAPBinding.Style.RPC)
-public interface DataService {
+public interface ContactService {
     @WebMethod
-    String getData(String data);
+    String getContactInfo(String data);
 }
